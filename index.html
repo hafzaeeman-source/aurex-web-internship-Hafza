@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hafza Iman | Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -20,13 +21,19 @@
 
 <!-- Navigation Section -->
 <nav>
-    <a href="#about">About Me</a> |
-    <a href="#skills">Skills</a> |
-    <a href="#education">Education</a> |
-    <a href="#experience">Experience</a> |
-    <a href="#contact">Contact</a>
-</nav>
+    <details>
+        <summary>☰ Menu</summary>
 
+        <div class="nav-links">
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </details>
+</nav>
 <hr>
 
 <!-- Main Content -->
@@ -53,8 +60,13 @@
             skilled IT professional and gain practical experience through
             real-world projects.
         </p>
+        <div class="hero-buttons">
+        
+            <button href="#contact">Hire Me</button><br><br>
+            <button href="Hafza_CV.pdf">Download CV</button><br><br>  
+     </div>    
     </section>
-
+     
     <hr>
 
     <!-- Skills Section -->
@@ -153,9 +165,11 @@
                           rows="5" cols="30"
                           placeholder="Write your message here"></textarea>
             </p>
-
-            <button type="submit">Send Message</button>
-
+        
+            <button type="submit">Send Message</button><br><br>
+           
+    
+            </div>
         </form>
     </section>
 
