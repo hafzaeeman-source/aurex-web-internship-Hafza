@@ -8,7 +8,6 @@
 
 **Week:** Week 2
 
----
 
 ## Task Description
 
@@ -27,7 +26,6 @@ The webpage includes the following sections:
 * Contact Form
 * Footer
 
----
 
 ## Technologies Used
 
@@ -37,7 +35,7 @@ The webpage includes the following sections:
 * GitHub
 * Visual Studio Code
 
----
+
 
 ## CSS Features & Layout Techniques
 
@@ -57,7 +55,7 @@ The following CSS features and techniques were implemented:
 * Consistent spacing and alignment
 * Responsive layouts for Desktop, Tablet, and Mobile screens
 
----
+
 
 ## Project Structure
 
@@ -71,7 +69,6 @@ aurex-web-internship-Hafza/
 └── README.md
 ```
 
----
 
 ## How to Run the Project Locally
 
@@ -81,7 +78,7 @@ aurex-web-internship-Hafza/
 4. Make sure `style.css` is in the same project folder.
 5. Open `index.html` in a web browser such as Google Chrome or Microsoft Edge.
 
----
+
 
 ## Responsive Design
 
@@ -93,7 +90,7 @@ The webpage was designed to work on different screen sizes:
 
 CSS Media Queries were used to adjust the layout, spacing, and sizing according to the screen size.
 
----
+
 
 ## Live Deployment
 
@@ -125,13 +122,13 @@ During Week 2, I learned:
 * How to test a webpage on Desktop, Tablet, and Mobile screen sizes.
 * How to improve a basic HTML webpage using CSS.
 
----
+
 
 ## Challenges Faced
 
 As a beginner, understanding CSS properties, spacing, Flexbox/Grid, and responsive design was initially challenging. Adjusting the webpage for different screen sizes also required practice and testing. Through this task, I improved my understanding of CSS and became more comfortable with creating responsive frontend layouts.
 
----
+
 
 ## Learning Reflection
 
@@ -139,7 +136,7 @@ During Week 2, I transformed my Week 1 HTML profile webpage into a styled and re
 
 This week helped me improve my practical frontend development skills and gave me a better understanding of how HTML and CSS work together.
 
----
+
 
 ## Author
 
