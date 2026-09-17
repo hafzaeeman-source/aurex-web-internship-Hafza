@@ -1,188 +1,342 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hafza Iman | Personal Profile</title>
-    <link rel="stylesheet" href="style.css">
+
+    <title>Hafza Iman | Personal Portfolio</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="styles/animations.css">
 </head>
 
 <body>
 
-<!-- Header Section -->
-<header>
-    <h1>Hafza Iman</h1>
-    <p>BSIT Student | Aspiring Web Developer</p>
-</header>
-
-<hr>
-
-<!-- Navigation Section -->
-<nav>
-    <details>
-        <summary>☰ Menu</summary>
-
-        <div class="nav-links">
-            <a href="#about">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="container">
+            <h1>Hafza Iman</h1>
+            <p>BSIT Student | Aspiring Web Developer</p>
         </div>
+    </header>
 
-    </details>
-</nav>
-<hr>
+    <!-- Navigation Section -->
+    <nav class="site-nav" aria-label="Main navigation">
+        <div class="container nav-container">
 
-<!-- Main Content -->
-<main>
+            <a href="#about" class="nav-logo">Hafza Iman</a>
 
-    <!-- About Me Section -->
-    <section id="about">
-        <h2>About Me</h2>
-
-        <img src="Profile.png"
-             alt="Profile picture of Hafza Iman"
-             width="150"
-             height="150">
-
-        <p>
-            Hello! My name is Hafza Iman, and I am a Bachelor of Science
-            in Information Technology (BSIT) student. I am passionate about
-            technology and web development and enjoy learning new skills.
-        </p>
-
-        <p>
-            I am currently improving my knowledge of HTML, CSS, JavaScript,
-            and other web development technologies. My goal is to become a
-            skilled IT professional and gain practical experience through
-            real-world projects.
-        </p>
-        <div class="hero-buttons">
-        
-            <button href="#contact">Hire Me</button><br><br>
-            <button href="Hafza_CV.pdf">Download CV</button><br><br>  
-     </div>    
-    </section>
-     
-    <hr>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>My Skills</h2>
-
-        <ul>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>Basic JavaScript</li>
-            <li>C++</li>
-            <li>Java</li>
-            <li>Git and GitHub</li>
-        </ul>
-    </section>
-
-    <hr>
-
-    <!-- Education Section -->
-    <section id="education">
-        <h2>Education</h2>
-
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Qualification</th>
-                    <th>Field</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>Bachelor's Degree</td>
-                    <td>Information Technology (BSIT)</td>
-                    <td>Currently Studying</td>
-                </tr>
-
-                <tr>
-                    <td>Intermediate</td>
-                    <td>Computer Science</td>
-                    <td>Completed</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <hr>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <h2>Experience</h2>
-
-        <article>
-            <h3>AUREX Full-Stack Engineering Internship</h3>
-            <p><strong>Role:</strong> Full-Stack Engineering Intern</p>
-            <p>
-                Currently learning web development fundamentals, Git,
-                GitHub, and HTML5 through practical internship tasks.
-            </p>
-        </article>
-
-        <article>
-            <h3>Academic Projects</h3>
-            <p>
-                Worked on different academic projects and assignments during
-                my BSIT studies to improve my programming and web
-                development knowledge.
-            </p>
-        </article>
-    </section>
-
-    <hr>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-
-        <form>
-
-            <p>
-                <label for="name">Full Name:</label><br>
-                <input type="text" id="name" name="name"
-                       placeholder="Enter your full name" required>
-            </p>
-
-            <p>
-                <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email"
-                       placeholder="Enter your email" required>
-            </p>
-
-            <p>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message"
-                          rows="5" cols="30"
-                          placeholder="Write your message here"></textarea>
-            </p>
-        
-            <button type="submit">Send Message</button><br><br>
-           
-    
+            <div class="nav-links">
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
-        </form>
-    </section>
 
-</main>
+        </div>
+    </nav>
 
-<hr>
+    <!-- Main Content -->
+    <main>
 
-<!-- Footer Section -->
-<footer>
-    
-    <p>Created as part of the AUREX Full-Stack Engineering Internship - Week 1.</p>
-</footer>
+        <!-- About Me Section -->
+        <section id="about" class="about-section section">
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <img src="Profile.png"
+                         alt="Profile picture of Hafza Iman"
+                         width="150"
+                         height="150">
+                </div>
+
+                <div class="about-content">
+                    <p class="section-label">Welcome to my portfolio</p>
+
+                    <h2>About Me</h2>
+
+                    <p>
+                        Hello! My name is Hafza Iman, and I am a Bachelor of
+                        Science in Information Technology (BSIT) student.
+                        I am passionate about technology and web development
+                        and enjoy learning new skills.
+                    </p>
+
+                    <p>
+                        I am currently improving my knowledge of HTML, CSS,
+                        JavaScript, and other web development technologies.
+                        My goal is to become a skilled IT professional and
+                        gain practical experience through real-world projects.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="iman cv BS .pdf"
+                           class="btn btn-secondary"
+                           download>Download CV</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section">
+            <div class="container">
+
+                <p class="section-label">My abilities</p>
+                <h2>My Skills</h2>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <h3>HTML5</h3>
+                        <p>Semantic and accessible web page structure.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>CSS3</h3>
+                        <p>Styling, layouts, responsive design, and animations.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>Basic programming and interactive web features.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>C++</h3>
+                        <p>Basic programming concepts and problem solving.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Java</h3>
+                        <p>Learning object-oriented programming fundamentals.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Git & GitHub</h3>
+                        <p>Version control and managing project repositories.</p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section section">
+            <div class="container">
+
+                <p class="section-label">My academic background</p>
+                <h2>Education</h2>
+
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Qualification</th>
+                                <th>Field</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Bachelor's Degree</td>
+                                <td>Information Technology (BSIT)</td>
+                                <td>Currently Studying</td>
+                            </tr>
+
+                            <tr>
+                                <td>Intermediate</td>
+                                <td>Computer Science</td>
+                                <td>Completed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section section">
+            <div class="container">
+
+                <p class="section-label">My practical learning</p>
+                <h2>Experience</h2>
+
+                <div class="experience-grid">
+
+                    <article class="experience-card">
+                        <h3>AUREX Full-Stack Engineering Internship</h3>
+
+                        <p>
+                            <strong>Role:</strong>
+                            Full-Stack Engineering Intern
+                        </p>
+
+                        <p>
+                            Currently learning web development fundamentals,
+                            Git, GitHub, HTML5, CSS3, and responsive design
+                            through practical internship tasks.
+                        </p>
+                    </article>
+
+                    <article class="experience-card">
+                        <h3>Academic Projects</h3>
+
+                        <p>
+                            Worked on different academic projects and
+                            assignments during my BSIT studies to improve
+                            my programming and web development knowledge.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section">
+            <div class="container">
+
+                <p class="section-label">My work</p>
+                <h2>Projects Showcase</h2>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>Personal Portfolio</h3>
+
+                            <p>
+                                A responsive personal portfolio created
+                                using HTML5 and CSS3.
+                            </p>
+
+                            <span class="project-tag">HTML, CSS & JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>Finder's Heaven site</h3>
+
+                            <p>
+                                A site to add details about lost items and found items.
+                            </p>
+
+                            <span class="project-tag">HTML, CSS & JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>Responsive Image Gallery</h3>
+
+                            <p>
+                                A site to show multiple responsive images.
+                            </p>
+                            </p>
+
+                            <span class="project-tag">HTML, CSS & JavaScript</span>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>Wedding Invite Website</h3>
+
+                            <p>
+                                A site to with invitation, wishes and remembrance of unforgotable moments
+                            </p>
+
+                            <span class="project-tag">HTML, CSS & JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>Academic Projects</h3>
+
+                            <p>
+                                University assignments and programming
+                                projects developed during BSIT studies.
+                            </p>
+
+                            <span class="project-tag">HTML, CSS & JavaScript</span>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section">
+            <div class="container">
+
+                <p class="section-label">Get in touch</p>
+                <h2>Contact Me</h2>
+
+                <form class="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text"
+                               id="name"
+                               name="name"
+                               placeholder="Enter your full name"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               placeholder="Enter your email"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message"
+                                  name="message"
+                                  rows="5"
+                                  placeholder="Write your message here"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                Created as part of the AUREX Full-Stack Engineering
+                Internship - Week 3.
+            </p>
+        </div>
+    </footer>
 
 </body>
-
 </html>

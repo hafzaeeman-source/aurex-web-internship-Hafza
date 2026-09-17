@@ -1,145 +1,214 @@
 # AUREX Full-Stack Engineering Internship
 
-## Intern Information
+## Personal Portfolio — Hafza Iman
+
+This repository contains my personal portfolio website developed as part of the **AUREX Full-Stack Engineering Internship**.
+
+The project was progressively developed from **Week 1 to Week 3**, starting with HTML fundamentals and advancing to responsive design, advanced CSS layouts, animations, and UI improvements.
+
+---
+
+## About Me
 
 **Name:** Hafza Iman
+**Program:** Bachelor of Science in Information Technology (BSIT)
+**Role:** Full-Stack Engineering Intern
+**Internship:** AUREX Full-Stack Engineering Internship
 
-**Domain:** Full-Stack Web Development
+I am an IT student interested in web development and continuously improving my practical skills through projects and internship tasks.
 
-**Week:** Week 2
+---
 
+# Internship Progress
 
-## Task Description
+## Week 1 — HTML5 & Git/GitHub
 
-This project is a Responsive Personal Portfolio / Developer Introduction webpage created as part of Week 2 of the AUREX Full-Stack Engineering Internship.
+### Focus
 
-The Week 1 HTML profile webpage was enhanced with CSS3 styling, modern layout techniques, basic UI/UX principles, and responsive web design.
+* HTML5 fundamentals
+* Semantic HTML
+* Accessibility
+* Basic portfolio structure
+* Git and GitHub
 
-The webpage includes the following sections:
+### Completed
 
-* Header
-* Navigation
-* About Me
-* Skills
-* Education
-* Experience
-* Contact Form
-* Footer
+* Created the initial personal portfolio
+* Added semantic HTML sections
+* Added profile information
+* Added skills, education, experience, and contact sections
+* Learned basic Git and GitHub workflow
 
+---
 
-## Technologies Used
+## Week 2 — CSS3 & Responsive Design
+
+### Focus
+
+* CSS3 fundamentals
+* CSS selectors and styling
+* Box model
+* Flexbox
+* CSS Grid
+* Responsive web design
+* Media queries
+* Basic UI/UX improvements
+
+### Completed
+
+* Styled the personal portfolio
+* Created responsive layouts
+* Used Flexbox and Grid
+* Added responsive navigation and sections
+* Improved spacing, typography, colors, and overall visual design
+
+---
+
+## Week 3 — Advanced CSS & Animations
+
+### Focus
+
+* Advanced CSS Grid
+* Flexbox
+* CSS variables
+* `auto-fit`
+* `minmax()`
+* `clamp()`
+* CSS transitions
+* CSS keyframe animations
+* Hover effects
+* Micro-interactions
+* Card elevation
+* Responsive optimization
+* UI polish
+* Accessibility considerations
+
+### Completed
+
+* Upgraded the Week 2 portfolio instead of creating a new project
+* Added an advanced responsive Skills Grid
+* Added Experience cards
+* Added a Projects Showcase using CSS Grid
+* Added hover effects and smooth transitions
+* Added animated page elements
+* Added button micro-interactions
+* Added profile image animation
+* Added responsive layouts for different screen sizes
+* Organized CSS into separate files
+
+---
+
+# Technologies Used
 
 * HTML5
 * CSS3
+* CSS Grid
+* Flexbox
+* CSS Variables
+* CSS Animations
+* CSS Transitions
+* Responsive Design
 * Git
 * GitHub
 * Visual Studio Code
 
+---
 
-
-## CSS Features & Layout Techniques
-
-The following CSS features and techniques were implemented:
-
-* CSS selectors
-* Colors and backgrounds
-* Font and text styling
-* CSS Box Model
-* Margin and padding
-* Borders
-* Flexbox
-* CSS Grid
-* Responsive design
-* CSS Media Queries
-* Basic UI/UX principles
-* Consistent spacing and alignment
-* Responsive layouts for Desktop, Tablet, and Mobile screens
-
-
-
-## Project Structure
+# Project Structure
 
 ```text
 aurex-web-internship-Hafza/
-
 │
 ├── index.html
-├── style.css
 ├── Profile.png
-└── README.md
+├── README.md
+│
+└── styles/
+    ├── main.css
+    └── animations.css
 ```
 
+---
 
-## How to Run the Project Locally
+# Portfolio Sections
 
-1. Download or clone the repository.
-2. Open the project folder in Visual Studio Code.
-3. Open the `index.html` file.
-4. Make sure `style.css` is in the same project folder.
-5. Open `index.html` in a web browser such as Google Chrome or Microsoft Edge.
+The portfolio currently includes:
 
+* Header
+* Navigation
+* About Me
+* Profile Image
+* Skills
+* Education
+* Experience
+* Projects Showcase
+* Contact Form
+* Footer
 
+---
 
-## Responsive Design
+# Week 3 CSS Features
 
-The webpage was designed to work on different screen sizes:
+### Advanced Grid
+
+The project uses responsive CSS Grid layouts with:
+
+```css
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+```
+
+This allows cards to automatically adjust according to the available screen width.
+
+### Fluid Typography
+
+Responsive font sizes are created using:
+
+```css
+clamp()
+```
+
+### CSS Variables
+
+Common colors, shadows, spacing values, and other styles are managed using CSS custom properties.
+
+### Animations
+
+The project includes:
+
+* Fade-in animation
+* Slide animations
+* Card animations
+* Button micro-interactions
+* Profile image floating effect
+* Navigation interactions
+
+### Responsive Design
+
+The portfolio is optimized for:
 
 * Desktop
 * Tablet
 * Mobile
 
-CSS Media Queries were used to adjust the layout, spacing, and sizing according to the screen size.
+---
+
+# What I Learned
+
+During Week 3, I learned how to improve a previously created website using advanced CSS techniques instead of starting a new project. I practiced CSS Grid with `auto-fit` and `minmax()`, responsive layouts, CSS variables, transitions, keyframe animations, hover effects, and micro-interactions. I also learned how to organize CSS into separate files and improve the overall user interface and responsiveness of a website.
+
+---
+
+# Internship Goal
+
+The goal of this project is to continuously improve my frontend development skills through practical tasks and gradually build a strong foundation in full-stack web development.
+
+---
 
 
+## 📌 Internship
 
-## Live Deployment
+**AUREX Full-Stack Engineering Internship**
+**Month 1 — Frontend Foundation**
+**Week 3 — Advanced CSS & Animations**
 
-**Live Website:**
- 
-https://hafzaeeman-source.github.io/aurex-web-internship-Hafza/
-
-## GitHub Repository
-
-**Repository:**
-
-https://github.com/hafzaeeman-source/aurex-web-internship-Hafza.git
-
-
-
-## Key Learnings
-
-During Week 2, I learned:
-
-* Basic CSS3 syntax and selectors.
-* How to style HTML elements using CSS.
-* How to use colors, backgrounds, fonts, and text styling.
-* How the CSS Box Model works.
-* How to use margin, padding, borders, width, and height.
-* How to use Flexbox for layout and alignment.
-* How to use CSS Grid for structured layouts.
-* How to create responsive webpages using Media Queries.
-* Basic UI/UX principles such as visual hierarchy, readable typography, consistent spacing, and clean alignment.
-* How to test a webpage on Desktop, Tablet, and Mobile screen sizes.
-* How to improve a basic HTML webpage using CSS.
-
-
-
-## Challenges Faced
-
-As a beginner, understanding CSS properties, spacing, Flexbox/Grid, and responsive design was initially challenging. Adjusting the webpage for different screen sizes also required practice and testing. Through this task, I improved my understanding of CSS and became more comfortable with creating responsive frontend layouts.
-
-
-
-## Learning Reflection
-
-During Week 2, I transformed my Week 1 HTML profile webpage into a styled and responsive personal portfolio. I practiced CSS3, the Box Model, Flexbox, Grid, and Media Queries. I also learned how proper spacing, typography, alignment, and responsive design can improve the overall user experience of a webpage.
-
-This week helped me improve my practical frontend development skills and gave me a better understanding of how HTML and CSS work together.
-
-
-
-## Author
-
-**Hafza Iman**
-
-AUREX Full-Stack Engineering Internship — Week 2
+**Created by:** Hafza Iman

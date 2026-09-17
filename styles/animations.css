@@ -1,0 +1,259 @@
+/* ========================================
+   AUREX WEEK 3 - ANIMATIONS CSS
+   Hafza Iman Portfolio
+   ======================================== */
+
+
+/* ========================================
+   1. PAGE LOAD ANIMATION
+   ======================================== */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeIn 0.8s ease-in;
+}
+
+
+/* ========================================
+   2. HEADER ANIMATION
+   ======================================== */
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.site-header {
+    animation: slideDown 0.8s ease-out;
+}
+
+
+/* ========================================
+   3. ABOUT SECTION ANIMATION
+   ======================================== */
+
+@keyframes slideLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.about-image {
+    animation: slideLeft 0.9s ease-out;
+}
+
+.about-content {
+    animation: slideRight 0.9s ease-out;
+}
+
+
+/* ========================================
+   4. CARD FADE-UP ANIMATION
+   ======================================== */
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.skill-card,
+.experience-card,
+.project-card {
+    animation: fadeUp 0.8s ease-out both;
+}
+
+
+/* ========================================
+   5. STAGGERED CARD ANIMATION
+   ======================================== */
+
+.skill-card:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.skill-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.skill-card:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.skill-card:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.skill-card:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.skill-card:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+
+.project-card:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.project-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.project-card:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+
+/* ========================================
+   6. BUTTON MICRO-INTERACTION
+   ======================================== */
+
+@keyframes buttonPulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.03);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.btn:hover {
+    animation: buttonPulse 0.4s ease;
+}
+
+
+/* ========================================
+   7. PROFILE IMAGE FLOATING EFFECT
+   ======================================== */
+
+@keyframes gentleFloat {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-7px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.about-image img {
+    animation: gentleFloat 4s ease-in-out infinite;
+}
+
+
+/* ========================================
+   8. NAVIGATION MICRO-INTERACTION
+   ======================================== */
+
+.nav-logo {
+    transition: transform 0.3s ease;
+}
+
+.nav-logo:hover {
+    transform: translateY(-2px);
+}
+
+
+/* ========================================
+   9. PROJECT TAG ANIMATION
+   ======================================== */
+
+.project-tag {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.project-card:hover .project-tag {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(123, 63, 97, 0.15);
+}
+
+
+/* ========================================
+   10. FORM FOCUS ANIMATION
+   ======================================== */
+
+@keyframes inputFocus {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.01);
+    }
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    animation: inputFocus 0.2s ease;
+}
+
+
+/* ========================================
+   11. REDUCED MOTION ACCESSIBILITY
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+    }
+
+}
