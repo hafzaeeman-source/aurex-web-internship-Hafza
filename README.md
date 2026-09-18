@@ -204,8 +204,17 @@ The goal of this project is to continuously improve my frontend development skil
 
 ---
 
+# Project Links
 
-## 📌 Internship
+**GitHub Repository:**
+https://github.com/hafzaeeman-source/aurex-web-internship-Hafza.git 
+
+**Live Website:**
+https://hafzaeeman-source.github.io/aurex-web-internship-Hafza/ 
+
+---
+
+## Internship
 
 **AUREX Full-Stack Engineering Internship**
 **Month 1 — Frontend Foundation**
